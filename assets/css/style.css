@@ -7,8 +7,14 @@
 .navbar-brand {
     background-color: black;
     color: white;
+    padding-top: 30px;
 }
 
 .nav-item-border {
     border-right: 1px solid slategray;
+}
+
+.navbar-toggler-icon {
+    background-color: black;
+    
 }
