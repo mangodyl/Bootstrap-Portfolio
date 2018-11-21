@@ -1,0 +1,14 @@
+
+
+.navbar.fixed-top {
+    background-color: lightsteelblue;
+}
+
+.navbar-brand {
+    background-color: black;
+    color: white;
+}
+
+.nav-item-border {
+    border-right: 1px solid slategray;
+}
