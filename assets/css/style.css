@@ -1,13 +1,26 @@
 
+body {
+
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: url("../images/folk-pattern-black\ copy.png");
+    margin: 0;
+   
+}
+
 
 .navbar.fixed-top {
     background-color: lightsteelblue;
+    padding: 0;
 }
 
 .navbar-brand {
     background-color: black;
     color: white;
     padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 350px;
 }
 
 .nav-item-border {
@@ -17,4 +30,19 @@
 .navbar-toggler-icon {
     background-color: black;
     
+}
+
+#navbarMenu {
+    margin-right: 350px;
+}
+
+.jumbotron {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+img {
+    height: auto ;
+    max-width: 50%;
 }
