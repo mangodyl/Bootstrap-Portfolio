@@ -20,7 +20,7 @@ body {
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: 350px;
+    font-size: 200%;
 }
 
 .nav-item-border {
@@ -29,6 +29,7 @@ body {
 
 .navbar-toggler-icon {
     background-color: black;
+    color: pink;
     
 }
 
@@ -40,6 +41,7 @@ body {
     max-width: 960px;
     margin: 0 auto;
     margin-top: 150px;
+    background-color: lightsteelblue;
 }
 
 #profile-pic {
@@ -49,4 +51,12 @@ body {
 
 .col-sm-4 {
     margin-bottom: 20px;
+}
+
+.name-box-header {
+    margin-left: 30px;
+}
+
+.nav-item.active {
+    background-color: lightslategrey;
 }
