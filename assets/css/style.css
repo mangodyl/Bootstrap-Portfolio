@@ -11,6 +11,7 @@ body {
 .navbar.fixed-top {
     background-color: lightsteelblue;
     padding: 0;
+    border-bottom: 4px solid black;
 }
 
 .navbar-brand {
@@ -42,6 +43,7 @@ body {
     margin: 0 auto;
     margin-top: 150px;
     background-color: lightsteelblue;
+    margin-bottom: 40px;
 }
 
 #profile-pic {
@@ -54,9 +56,22 @@ body {
 }
 
 .name-box-header {
-    margin-left: 30px;
+    margin-left: 358px;
 }
 
 .nav-item.active {
     background-color: lightslategrey;
+}
+
+footer {
+    background-color: lightsteelblue;
+    text-align: center;
+    padding: 5px;
+    border-top: 4px solid black;
+}
+
+@media screen and (max-width: 1000px) {
+    .name-box-header {
+        margin-left: 30px;
+    }
 }
